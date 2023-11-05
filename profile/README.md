@@ -1,14 +1,13 @@
+<p align="center">
+  <img alt="Goa Design Banner" src="profile/assets/goadesign-banner.png">
+</p>
+
 # Welcome to Goa Design!
 
 <p align="center">
-  <p align="center">
-    <img alt="Goa Design Banner" src="profile/assets/goadesign-banner.png">
-  </p>
-  <p align="center">
-    <a href="https://gophers.slack.com/messages/goa"><img alt="Slack" src="https://img.shields.io/badge/Chat-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
-    <a href="https://invite.slack.golangbridge.org/"><img alt="Slack: Sign-up" src="https://img.shields.io/badge/Signup-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
-    <a href="https://twitter.com/goadesign"><img alt="Twitter: @goadesign" src="https://img.shields.io/badge/@goadesign-gray.svg?logo=twitter&colorB=blue&style=for-the-badge"></a>
-  </p>
+  <a href="https://gophers.slack.com/messages/goa"><img alt="Slack" src="https://img.shields.io/badge/Chat-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
+  <a href="https://invite.slack.golangbridge.org/"><img alt="Slack: Sign-up" src="https://img.shields.io/badge/Signup-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
+  <a href="https://twitter.com/goadesign"><img alt="Twitter: @goadesign" src="https://img.shields.io/badge/@goadesign-gray.svg?logo=twitter&colorB=blue&style=for-the-badge"></a>
 </p>
 
 ## Your Gateway to a World-Class Microservices Ecosystem
