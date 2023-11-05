@@ -2,7 +2,7 @@
 
 <p align="center">
   <p align="center">
-    <img alt="Goa Design Banner" src="assets/goadesign-banner.png">
+    <img alt="Goa Design Banner" src="profile/assets/goadesign-banner.png">
   </p>
   <p align="center">
     <a href="https://gophers.slack.com/messages/goa"><img alt="Slack" src="https://img.shields.io/badge/Chat-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
@@ -18,7 +18,7 @@ At Goa Design, we believe in empowering developers to build scalable, efficient,
 ### Goa - Design First Approach to Microservices
 
 <p align="center">
-  <img alt="Goa Banner" src="assets/goa-banner.png">
+  <img alt="Goa Banner" src="profile/assets/goa-banner.png">
 </p>
 
 **Goa** is a design-first framework that provides a comprehensive approach to crafting microservices with Go. It emphasizes a blueprint-centric workflow, ensuring that your service contracts are clear and your architecture is consistent across the board.
@@ -33,7 +33,7 @@ Explore more about [Goa](https://github.com/goadesign/goa).
 ### Model - Architectural Visualization
 
 <p align="center">
-  <img alt="Clue Banner" src="assets/model-banner.png">
+  <img alt="Clue Banner" src="profile/assets/model-banner.png">
 </p>
 
 **Model** introduces a "diagram as code" methodology, allowing you to create, edit, and visualize your system's architecture in a structured and interactive way.
