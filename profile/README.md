@@ -1,7 +1,3 @@
-<p align="center">
-  <img alt="Goa Design Banner" src="/profile/assets/goadesign-banner.png">
-</p>
-
 <h1 align="center">Design-first Go infrastructure for APIs, services, agents, and distributed systems</h1>
 
 <p align="center">
