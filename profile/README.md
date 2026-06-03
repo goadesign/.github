@@ -2,73 +2,205 @@
   <img alt="Goa Design Banner" src="/profile/assets/goadesign-banner.png">
 </p>
 
-# Welcome to Goa Design!
+<h1 align="center">Design-first Go infrastructure for APIs, services, agents, and distributed systems</h1>
 
 <p align="center">
-  <a href="https://gophers.slack.com/messages/goa"><img alt="Slack" src="https://img.shields.io/badge/Chat-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
-  <a href="https://invite.slack.golangbridge.org/"><img alt="Slack: Sign-up" src="https://img.shields.io/badge/Signup-gray.svg?longCache=true&logo=slack&colorB=red&style=for-the-badge"></a>
-  <a href="https://twitter.com/goadesign"><img alt="Twitter: @goadesign" src="https://img.shields.io/badge/@goadesign-gray.svg?logo=twitter&colorB=blue&style=for-the-badge"></a>
+  Define contracts once. Generate the transports, clients, docs, schemas, tools,
+  and runtime glue that keep production code honest.
 </p>
-
-## Your Gateway to a World-Class Microservices Ecosystem
-
-At Goa Design, we believe in empowering developers to build scalable, efficient, and robust microservices architectures. We provide a suite of tools designed to streamline the development process, enhance observability, simplify eventing, and ensure thorough documentation. Dive into our ecosystem:
-
-### Goa - Design First Approach to Microservices
 
 <p align="center">
-  <img alt="Goa Banner" src="/profile/assets/goa-banner.png">
+  <a href="https://github.com/goadesign/goa"><img alt="Goa stars" src="https://img.shields.io/github/stars/goadesign/goa?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/goadesign/goa-ai"><img alt="Goa-AI" src="https://img.shields.io/badge/Goa--AI-agentic%20systems-006BFF?style=for-the-badge"></a>
+  <a href="https://github.com/goadesign/goa/releases/latest"><img alt="Goa release" src="https://img.shields.io/github/v/release/goadesign/goa?style=for-the-badge"></a>
+  <a href="https://go.dev"><img alt="Go 1.25+" src="https://img.shields.io/badge/Go-1.25%2B-00ADD8?logo=go&logoColor=white&style=for-the-badge"></a>
+  <a href="https://github.com/goadesign/goa/blob/main/LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=for-the-badge"></a>
+  <a href="https://gophers.slack.com/messages/goa"><img alt="Goa Slack" src="https://img.shields.io/badge/Goa-Slack-4A154B?logo=slack&logoColor=white&style=for-the-badge"></a>
 </p>
-
-**Goa** is a design-first framework that provides a comprehensive approach to crafting microservices with Go. It emphasizes a blueprint-centric workflow, ensuring that your service contracts are clear and your architecture is consistent across the board.
-
-- **Automatic Code Generation**: Jumpstart your development with automatically generated code for transport, endpoints, and documentation.
-- **Design Consistency**: Maintain architectural integrity with enforced design patterns.
-- **Ease of Testing**: Enjoy the convenience of in-memory mocks for thorough and efficient testing practices.
-- **Documentation Synchronization**: Keep your implementation and documentation in perfect harmony.
-
-Explore more about [Goa](https://github.com/goadesign/goa).
-
-### Model - Architectural Visualization
 
 <p align="center">
-  <img alt="Clue Banner" src="/profile/assets/model-banner.png">
+  <a href="https://goa.design">Documentation</a>
+  ·
+  <a href="https://github.com/goadesign/goa">Goa</a>
+  ·
+  <a href="https://github.com/goadesign/goa-ai">Goa-AI</a>
+  ·
+  <a href="https://github.com/goadesign/examples">Examples</a>
+  ·
+  <a href="https://github.com/goadesign/goa/discussions">Discussions</a>
+  ·
+  <a href="https://goadesign.substack.com">Design First</a>
 </p>
 
-**Model** introduces a "diagram as code" methodology, allowing you to create, edit, and visualize your system's architecture in a structured and interactive way.
+---
 
-- **C4 Model Compliance**: Visualize your software architecture coherently at multiple abstraction levels.
-- **Interactive Editing**: Fine-tune your diagrams with an intuitive HTTP-based editor.
-- **SVG Export**: Embed your architecture diagrams directly into your documentation.
+## Start Here
 
-Dive deeper into [Model](https://github.com/goadesign/model).
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/goadesign/goa">Goa</a></h3>
+      <p>
+        Design-first APIs and microservices in Go. Write one DSL contract and
+        generate type-safe HTTP, gRPC, JSON-RPC, clients, OpenAPI docs, CLIs,
+        and transport scaffolding with zero drift between design and code.
+      </p>
+      <p>
+        <a href="https://goa.design/docs/">Read the docs</a>
+        ·
+        <a href="https://github.com/goadesign/examples">Browse examples</a>
+        ·
+        <a href="https://pkg.go.dev/goa.design/goa/v3/dsl">Go package docs</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/goadesign/goa-ai">Goa-AI</a></h3>
+      <p>
+        Design-first agentic systems in Go. Declare agents, tools, MCP servers,
+        policies, structured model outputs, streaming events, and durable
+        execution; generate the plumbing and run it locally or with Temporal.
+      </p>
+      <p>
+        <a href="https://goa.design/docs/2-goa-ai/">Read the Goa-AI docs</a>
+        ·
+        <a href="https://github.com/goadesign/goa-ai/tree/main/quickstart">Quickstart</a>
+        ·
+        <a href="https://pkg.go.dev/goa.design/goa-ai">Go package docs</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-### Clue - Observability Made Simple
+## Start With Goa In 60 Seconds
 
-**Clue** equips your services with the observability features needed to perform in today's demanding environments. Logging, metrics, tracing, and health checks are seamlessly integrated to offer real-time insights into your system's performance.
+Install the generator, describe a service, and let Goa create the boring parts.
 
-- **Structured Logging**: Benefit from buffered log entries and conditional flushing mechanisms.
-- **Metrics Collection**: Harness HTTP middleware and gRPC interceptors compatible with OpenTelemetry standards.
-- **Distributed Tracing**: Implement end-to-end request tracing for deep visibility.
+```bash
+go install goa.design/goa/v3/cmd/goa@latest
 
-Discover the capabilities of [Clue](https://github.com/goadesign/clue).
+mkdir hello && cd hello
+go mod init example.com/hello
+mkdir design
+```
 
-### Pulse - Eventing at Scale
+```go
+package design
 
-**Pulse** offers a robust set of tools for building event-driven architectures, ensuring your system scales efficiently and remains responsive under load.
+import . "goa.design/goa/v3/dsl"
 
-- **Shared In-Memory Maps**: Coordinate state across processes with ease.
-- **Adaptive Streaming**: Configure event streams to match your scaling needs.
-- **Worker Pools**: Manage workloads effectively with dedicated worker pools.
+var _ = Service("hello", func() {
+	Method("say_hello", func() {
+		Payload(func() {
+			Field(1, "name", String)
+			Required("name")
+		})
+		Result(String)
 
-Learn more about [Pulse](https://github.com/goadesign/pulse).
+		HTTP(func() {
+			GET("/hello/{name}")
+		})
+	})
+})
+```
 
-## Contributing to Goa Design
+```bash
+goa gen example.com/hello/design
+goa example example.com/hello/design
+go run ./cmd/hello
+```
 
-We thrive on community contribution! Whether you're fixing bugs, enhancing documentation, or proposing new features, we welcome your involvement. See our [Contributing Guidelines](https://github.com/goadesign/goa/blob/main/CONTRIBUTING.md) to get started.
+From that one design, Goa generates server interfaces, transport adapters,
+clients, OpenAPI documentation, and command-line helpers. Your code stays
+focused on business behavior.
 
-## Stay Informed
+## Build Agents With Goa-AI
 
-To keep up with updates and community discussions, join our [Gitter chat](https://gitter.im/goadesign/goa) or follow us on [Twitter](https://twitter.com/goadesign). Your feedback and insights are invaluable to us.
+Goa-AI applies the same design-first contract model to agent systems:
 
-Thank you for choosing Goa Design for your microservices journey. Together, let's build systems that are not only functional but truly exceptional.
+- **Typed tool contracts**: Goa types, validations, examples, generated JSON Schema, and generated codecs.
+- **MCP integration**: generated MCP servers and callers for exposing Goa services and consuming external tools.
+- **Structured completions**: service-owned result schemas with unary and streaming helpers.
+- **Runtime policy**: budgets, tool caps, confirmation gates, cancellation, retries, and bounded tool results.
+- **Durable execution**: an in-memory development engine and a Temporal-backed production engine.
+- **Real-time products**: typed stream events for assistant text, tool progress, awaits, child runs, usage, and status.
+
+Start with the [Goa-AI quickstart](https://github.com/goadesign/goa-ai/tree/main/quickstart),
+then go deeper in the [Goa-AI docs](https://goa.design/docs/2-goa-ai/) and
+[repository guides](https://github.com/goadesign/goa-ai/tree/main/docs).
+
+## Why Design First
+
+- **No drift**: the design owns the contract; generated code, docs, schemas, and clients stay aligned.
+- **Less boilerplate**: Goa generates the repetitive 30-50% of an API or agent system so teams build the behavior that matters.
+- **One contract, many surfaces**: HTTP, gRPC, JSON-RPC, OpenAPI, clients, CLIs, tools, MCP adapters, and agent runtimes come from the same source.
+- **Production boundaries**: business logic stays separate from transports, model providers, workflow engines, storage, and observability.
+
+## The Goa Design Ecosystem
+
+| Project | What it is for |
+| --- | --- |
+| [goa](https://github.com/goadesign/goa) | The core design-first framework and code generator for Go APIs and services. |
+| [goa-ai](https://github.com/goadesign/goa-ai) | Agents, tools, MCP, structured completions, policies, streaming events, and durable runtimes. |
+| [examples](https://github.com/goadesign/examples) | Copy-pasteable services that show specific Goa capabilities in real projects. |
+| [plugins](https://github.com/goadesign/plugins) | Official plugins that extend Goa generation. |
+| [clue](https://github.com/goadesign/clue) | OpenTelemetry-based observability for logs, metrics, traces, and health. |
+| [pulse](https://github.com/goadesign/pulse) | Event streaming, replicated maps, Redis-backed semaphores, and distributed worker pools. |
+| [model](https://github.com/goadesign/model) | C4 software architecture diagrams as Go code. |
+
+## Community
+
+We are building Goa with people who care about typed contracts, generated
+infrastructure, clean service boundaries, and production-grade Go systems.
+
+- Join the [Goa Slack channel](https://gophers.slack.com/messages/goa).
+- Follow project updates on [Design First](https://goadesign.substack.com).
+- Ask questions and shape the roadmap in
+  [GitHub Discussions](https://github.com/goadesign/goa/discussions).
+- Read the published documentation at [goa.design](https://goa.design).
+
+## Sponsors
+
+<table width="100%">
+  <tr>
+    <td>
+      <a href="https://www.incident.io">
+        <img src="https://raw.githubusercontent.com/goadesign/goa/v3/docs/incidentio.png" alt="incident.io" width="240" align="right">
+      </a>
+      <h3>incident.io: Bounce back stronger after every incident</h3>
+      <p>
+        Use incident.io to run incidents end-to-end, rapidly fix issues, and
+        learn from them so your team can build more resilient products.
+      </p>
+      <a href="https://incident.io">Learn more</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://www.speakeasy.com/editor?utm_source=goa+org&utm_medium=github+sponsorship">
+        <img src="https://raw.githubusercontent.com/goadesign/goa/v3/docs/speakeasy.png" alt="Speakeasy" width="240" align="right">
+      </a>
+      <h3>Speakeasy: Enterprise DevEx for your API</h3>
+      <p>
+        Speakeasy helps teams create feature-rich, production-ready SDKs and
+        improve API developer experience.
+      </p>
+      <a href="https://www.speakeasy.com/docs/api-frameworks/goa?utm_source=goa+org&utm_medium=github+sponsorship">Integrate with Goa</a>
+    </td>
+  </tr>
+</table>
+
+## Contributing
+
+Goa Design is open source and community-built. The most helpful contributions
+come with a small design, a failing test, a clear reproduction, or a focused
+documentation improvement.
+
+Start with the [contributing guide](https://github.com/goadesign/goa/blob/main/CONTRIBUTING.md)
+and [code of conduct](https://github.com/goadesign/goa/blob/main/CODE_OF_CONDUCT.md),
+or browse [good first issues](https://github.com/search?q=org%3Agoadesign+label%3A%22good+first+issue%22+state%3Aopen&type=issues).
+
+<p align="center">
+  <a href="https://github.com/goadesign/goa/graphs/contributors">
+    <img alt="Goa contributors" src="https://contrib.rocks/image?repo=goadesign/goa">
+  </a>
+</p>
