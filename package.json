@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p public/assets && cp profile/index.html public/index.html && cp -R profile/assets/. public/assets/"
+  }
+}

@@ -1,4 +1,5 @@
 {
-  "buildCommand": null,
-  "outputDirectory": "profile"
+  "buildCommand": "npm run build",
+  "framework": null,
+  "outputDirectory": "public"
 }
